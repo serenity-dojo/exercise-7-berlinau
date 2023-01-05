@@ -6,7 +6,7 @@ public class Cat extends Pet {
     private int age;
 
     public Cat(String name, String favoriteToy, int age) {
-        super(name, age);
+        super();
         this.favoriteToy = favoriteToy;
     }
 
