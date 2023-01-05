@@ -3,11 +3,10 @@ package com.serenitydojo;
 public class Dog extends Pet {
     private String favoriteToy;
     private boolean isFed = false;
-
     public static final String DOG_NOISE = "Woof";
 
     public Dog(String name, String favoriteToy, int age) {
-        super(name, age);
+        super();
         this.favoriteToy = favoriteToy;
     }
 
